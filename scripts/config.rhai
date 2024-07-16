@@ -1,8 +1,11 @@
-let titles_type = ["Dataset", "Survey", "Review", "Overview"];
-let titles_model = ["BERT", "GPT", "Transformer"];
-let titles_method = ["Pre-train", "Pretrain", "Prompt", "Self-Supervised"];
-let titles =  titles_model + titles_method + titles_type;
-let authors_array = ["Yann LeCun", "Geoffrey Hinton", "Yoshua Bengio"];
+let titles_xai = ["explainable", "XAI", "interpretable", "concept"];
+let titles_ts = ["time series"];
+let titles_ws = ["multiple instance learning"];
+let titles_shm = ["infrastructure", "inspection", "crack", "damage", "railway", "road"];
+let titles_phm = ["prognostic", "prognosis", "diagnostic", "diagnosis", "fault", "aircraft", "turbofan", "battery", "batteries"];
+let titles_thermal = ["thermal", "thermography", "building", "insulation", "renovation"];
+let titles =  titles_xai + titles_ts + titles_ws + titles_shm + titles_phm + titles_thermal;
+let authors_array = ["Olga Fink", "Jérôme Lacaille", "Mustapha Lebbah", "Hanane Azzag", "Hanene Azzag"];
 
 let conferences = [
     // AI
